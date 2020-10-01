@@ -1,0 +1,340 @@
+/*Código e Tags*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body{
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Roboto', 'Ope Sans', Arial, sans-serif;
+}
+div{
+    display: block;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+section{
+    padding: 20px;
+    float: left;
+}
+p{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start:0px;
+    margin-inline-end: 0px;
+}
+hr{
+    width: 3rem;
+    margin-bottom: 2%;
+    text-align: center;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+a{
+    color: initial;
+    text-decoration: initial;
+    color: white;
+}
+li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+li:hover{
+    background-color: #00ADEF;
+    border-radius: 5%; 
+}
+footer{
+    display: block;
+}
+address{
+    display:block;
+    font-style: italic;
+    padding-left: 1%;
+}
+
+/*Facilitadores*/
+.centralizado{
+    text-align: center;
+}
+.destaque{
+    background-color: #f7f7f7;
+}
+
+/*Colunas e divisões*/
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    text-align: center;
+}
+.dois{
+    width: 40%;
+}
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+.quatro{
+    width: 15%;
+}
+
+/*Logo e Menu*/
+#logo{
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+/*Capa*/
+#capa{
+    background: url("img/fundo.jpg");
+    height: 490px;
+    text-align: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+#titulo{
+    margin: 0;
+    color: white;
+    padding-top: 15%;
+    font-size: 50px;
+    line-height: 1.5;
+    text-shadow: 1px 1px black
+}
+#subtitulo{
+    color: white;
+    padding-top: 5px;
+    font-size: 25px;
+    margin: 0 30% 0 30%;
+    border-top: 2px solid white;
+    padding-bottom: 30px;
+}
+#ods{
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    text-decoration: initial;
+    font-size: 20px;
+}
+#ods:hover{
+    background-color: #00ADEF;
+}
+
+/*Sessão: Projeto*/
+#projeto, #eu{
+    border-left: 2.9vw #153947 solid;
+}
+.odsvideo{
+    float: left;
+    height: 250px;
+    position: relative;
+    width: 100%;
+    margin-top: 50px; 
+    border-radius: 5%
+}
+
+/*Sessão: Metas*/
+#metas, #mais{
+    border-left: 2.9vw #006A94 solid;
+}
+#img_ods14{
+    margin: 0;
+    width: 100%;
+    height: 50%;
+}
+.textmeta{
+    margin: 80px;
+}
+.listmeta{
+    text-align: justify;
+}
+.listmeta:hover{
+    background-color: #00ADEF;
+    border-radius: 1%;
+}
+
+/*Sessão: Oceanos, Mares e Recursos Marinhos*/
+#o_m_r{
+    border-left: 2.9vw #008FC7 solid;
+}
+.imgomr{
+    width: 90%;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+.sub_omr{
+    display: block;
+    padding-right: 90px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+/*Sessão: Conservação dos Oceanos*/
+#conservacao{
+    border-left: 2.9vw #00ADEF solid;
+}
+.videoplastico{
+    float:left;
+    height: 300px;
+    position: relative;
+    width: 100%;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+/*Sessão: Por Quê?*/
+#pq{
+    border-left: 2.9vw #49A3D0 solid;
+}
+.icone{
+    border-radius: 20%;
+    text-align: center;
+    margin: 0 auto;
+}
+.icone:hover{
+    background-color: #00ADEF;
+}
+
+/*Sessão: Quer Saber Mais?*/
+.imgmais{
+    width: 50%;
+    border-radius: 20%;
+    height: 100%;
+}
+.linkmais{
+    color: black;
+    border-radius: 8px;
+    padding: 5px 10px 5px;
+    line-height: 1.5;
+}
+.linkmais:hover{
+    background-color: #00ADEF;
+}
+
+/*Sessão: Quem Sou?*/
+#myfoto{
+    width: 100%;
+    margin-top: 50%;
+    border-radius: 5%;
+}
+.linksobre{
+    color: black;
+    padding: 0px 5px 0px 0.5px;
+    border-radius: 8px;
+    line-height: 1.5;
+}
+.linksobre:hover{
+    background-color: #00ADEF;
+}
+
+/*Rodapé*/
+#rodape{
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.5rem 2rem 0.5rem 0rem;
+}
+#rodape address{
+    font-size: 0.9rem;
+}
+.iconecontato{
+    padding: 5px 5px 5px 5px;
+    background-color: #00ADEF;
+    border-radius: 20%;
+}
+.section_tipo{
+    padding: 2%;
+    float: left;
+    color: black;
+}
+.linkcontato{
+    color: white;
+    border-radius: 8px;
+    padding: 0px 2px 0px;
+    line-height: 1.5;
+}
+.linkcontato:hover{
+    background-color: #00ADEF;
+}
+.textcontato{
+    padding-top: 0.3%;
+}
+.contato{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+
+/*Responsivo*/
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .dois, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logocell{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo{
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+    #myfoto{
+        margin:0;
+    }
+    figure h2.titulo{
+        margin: 0 10% 0 10%;
+    }
+    .sub_omr{
+        text-align: center;
+        padding: 0;
+    }
+    .odsvideo, .videoplastico{
+        margin-bottom: 50px;
+        margin-top: 0;
+        float:left;
+    }
+}
